@@ -1,0 +1,9 @@
+version: '3'
+services:
+  rrys:
+    container_name: rrys
+    image: 99ft/rrys
+    ports:
+      - 3001:3001
+    volumes:
+      - ./downloads:/store
